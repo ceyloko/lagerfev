@@ -11,6 +11,6 @@ class Config():
     BOT_NAME = os.environ.get("FeveranTaggerBot")
     BOT_ID = int(os.environ.get("6817520332"))
     SUDO_USERS = os.environ.get("1111099757").split()
-    SUPPORT_CHAT = os.environ.get("https://t.me/feveranchat")
+    SUPPORT_CHAT = os.environ.get("feveranchat")
     OWNER_ID = int(os.environ.get("1111099757"))
     OWNER_USERNAME = os.environ.get("yusufuslu")
