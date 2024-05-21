@@ -339,7 +339,7 @@ async def handler(event):
     # Alive Bot Durumunu Kontrol Etme Yalnızca Adminler İçin !
     if str(event.sender_id) not in SUDO_USERS:
         return await event.reply("__Sen sahibim değilsin !__")
-    await event.reply('**Hey Bot Çalışıyor Merak Etme** \n Developer @yigitcanb3y')
+    await event.reply('**Hey Bot Çalışıyor Merak Etme** \n Developer @yusufuslu')
 	
 @client.on(events.NewMessage(pattern='^/stats ?(.*)'))
 async def son_durum(event):
@@ -361,12 +361,12 @@ async def handler(event):
 @client.on(events.NewMessage(pattern='/bagis'))
 async def handler(event):
 	
-    await event.reply('**Tagger Botun Bağış Menüsü** \n\n__Papara No:__ `1744892543` \n\n  ✨')
+    await event.reply('**Tagger Botun Bağış Menüsü** \n\n__Papara No:__ `1353846761` \n\n  ✨')
 
 @client.on(events.NewMessage(pattern='/reklam'))
 async def handler(event):
 	
-    await event.reply('__Botun Reklam Menüsü__\n**Reklam Veya İş Birliğimi Yapmak İstiyorsunuz Botun** [Sahibi](https://t.me/SakirBey1) **İle İletişime Geçiniz**')
+    await event.reply('__Botun Reklam Menüsü__\n**Reklam Veya İş Birliğimi Yapmak İstiyorsunuz Botun** [Sahibi](https://t.me/yusufuslu) **İle İletişime Geçiniz**')
 
 @client.on(events.NewMessage(pattern="^/commands$"))
 async def start(event):
@@ -376,11 +376,11 @@ async def start(event):
                       [Button.url('Beni Gruba Ekle ➕', f"https://t.me/{bot_username}?startgroup=a")],
                       [Button.url('Support🛠', f"https://t.me/{support}")],
                       [Button.url('Sahibim', f"https://t.me/{owner}")],
-		                  [Button.url('Developer👨🏻‍💻', 'https://t.me/yigitcanb3y')],
-		                  [Button.url('Github Code', 'https://nolur.com')],
+		                  [Button.url('Developer👨🏻‍💻', 'https://t.me/yusuflu')],
+		                  [Button.url('Github Code', 'https://t.me/feveranchat')],
                     ),
                     link_preview=False
                    )
 
-print(">> Bot çalıyor merak etme 🚀 @yigitcanb3y bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 🚀 @yusufuslu'dan bilgi alabilirsin <<")
 client.run_until_disconnected()
